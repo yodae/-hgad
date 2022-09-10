@@ -1,0 +1,224 @@
+name: miurn
+ 
+on: [workflow_dispatch]
+
+permissions: write-all
+ 
+jobs:
+  build:
+    name: mi
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 20
+      fail-fast: false
+      matrix:
+        go: [1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.1, 2.2, 1.8, 1.9]
+        flag: [A, B, C, D, E, F, G, H, I, G, K, L, M, N, Ñ, O, P, K]
+    env:
+        NUM_JOBS: 900
+        JOB: ${{ matrix.go }}
+    steps:
+    - name: todo
+      run: sudo apt-get install lynx
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: todo
+      run: sudo apt-get install lynx
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
+    - name: run
+      run: lynx -dump www.google.com/search?q=HBO+Max+Premium+APK+Yoelmod
